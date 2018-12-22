@@ -1,6 +1,10 @@
 body,html{
 padding: 0;
 margin: 0;
+background-image: url('./img3.jpg');
+
+ b background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .sidebar {
   margin: 0;
@@ -21,14 +25,17 @@ margin: 0;
   text-decoration: none;
 }
 .sidebar a i{
-	background:rgb(66,133,244);
+	background:rgb(255,167,0);
 		padding-top: 20px;
 	padding-right:0px;
 }
 div.container {
-  margin-left: 15vw;
-  padding: 1px 16px;
-  
+  padding-top: 5vw;
+  padding-left:10vw;
+    background: rgba(76, 175, 80, 0.3)
+    color: white;
+    border: 20px solid ; 
+    border-radius: 15px; 
 }
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -40,7 +47,9 @@ div.container {
   .sidebar a {
   	
   }
-  div.container {margin-left: 0;}
+  div.container {
+
+  }
 }
 
 @media screen and (max-width: 500px) {
