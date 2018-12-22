@@ -32,7 +32,7 @@ background-image: url('./img3.jpg');
 div.container {
   padding-top: 5vw;
   padding-left:10vw;
-    background: rgba(76, 175, 80, 0.3)
+    background: rgba(76, 175, 80, 0.5);
     color: white;
     border: 20px solid ; 
     border-radius: 15px; 
