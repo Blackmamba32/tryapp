@@ -6,21 +6,23 @@ margin: 0;
   margin: 0;
   padding: 0;
   width: 50px;
-  background-color: #f1f1f1;
+  background-color:rgb(66,133,244);
   position: fixed;
   height: 100vh;
   overflow: auto;
 }
 .sidebar a {
-	
+	cursor: pointer;
   display: block;
+  background:rgb(15,157,88);
   color: black;
   padding:20px;
   padding-right:0;
   text-decoration: none;
 }
 .sidebar a i{
-padding-top: 20px;
+	background:rgb(66,133,244);
+		padding-top: 20px;
 	padding-right:0px;
 }
 div.container {
@@ -49,6 +51,10 @@ div.container {
   }
 }
 span{
+	text-align: center;
+	 font-weight: 900;
+	font-size:17px;
+	color:rgb(214,45,32);	
 	padding: 0;
 	margin: 0;
 	float: left;

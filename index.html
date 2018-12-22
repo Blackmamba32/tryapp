@@ -33,15 +33,25 @@
    			$(function(){
 
    $(".sidebar").mouseenter(function(){
-   $(".sidebar").animate({width: "90px"}, 500, function() {
-     $("span").show();
-});
   
-});
-    $(".sidebar").mouseleave(function(){
-  $("span").hide();
-  $(".sidebar").animate({width: "50px"}, 500);
-});
+   $(".sidebar").animate({width: "90px"}, 400, function() {
+   	
+     $("span").show();
+     });
+
+ });
+
+
+   $(".sidebar").mouseleave(function(){
+ 
+ 
+  $(".sidebar").animate({width: "50px"}, 5, function() {
+   	$("span").hide();
+     
+     });
+   
+}); 
+
 
 });
    		</script>
