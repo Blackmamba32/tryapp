@@ -1,0 +1,56 @@
+body,html{
+padding: 0;
+margin: 0;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+.sidebar a {
+	
+  display: block;
+  color: black;
+  padding:20px;
+  padding-right:0;
+  text-decoration: none;
+}
+.sidebar a i{
+padding-top: 20px;
+	padding-right:0px;
+}
+div.container {
+  margin-left: 15vw;
+  padding: 1px 16px;
+  
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+
+    
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+  	
+  }
+  div.container {margin-left: 0;}
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar a {
+
+    text-align: center;
+    float: none;
+  }
+}
+span{
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: none;
+}

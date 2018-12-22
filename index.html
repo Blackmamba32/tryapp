@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sidebar</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	<div class="sidebar">
+	  <a class="active" href="#home">
+	  	<i class="fab fa-500px"><span class="menu">Home</span></i>
+	  </a>
+	  <a href="#news">
+	  	
+	  	<i class="fab fa-500px"><span class="menu">Home</span></i>
+	  </a>
+	  <a href="#contact">
+	  	
+	  	<i class="fab fa-500px"><span class="menu">Home</span></i>
+	  </a>
+	  <a href="#about">
+	  	
+	  	<i class="fab fa-500px"><span class="menu">Home</span></i>
+	  </a>
+	</div>
+   	<div class="container">
+   		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea qui cum, ipsam facilis perferendis. Odio molestiae sunt non, earum neque repellat quisquam odit, magnam quae inventore esse veritatis laboriosam fugit debitis. Qui suscipit, vero tenetur placeat, sapiente ratione nulla expedita cum aperiam enim eveniet nihil, fuga deserunt officia ipsum a.
+</div>
+   	</div>
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   		<script>
+   			$(function(){
+
+   $(".sidebar").mouseenter(function(){
+   $(".sidebar").animate({width: "90px"}, 500, function() {
+     $("span").show();
+});
+  
+});
+    $(".sidebar").mouseleave(function(){
+  $("span").hide();
+  $(".sidebar").animate({width: "50px"}, 500);
+});
+
+});
+   		</script>
+</body>
+</html>
